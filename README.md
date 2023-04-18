@@ -1,5 +1,5 @@
 # IpCALC
-Proporcionando una ip y una máscara de red, calcula el network id, clase IP y el broadcast con sus repectivas conversiones en binario.
+Proporcionando una IP y una máscara de red, calcula el Network id, clase IP y el Broadcast con sus respectivas conversiones en binario.
 
 USO: 
 
