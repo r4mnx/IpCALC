@@ -26,7 +26,7 @@ function ipcidr(){
   # Comprobacion IP/CIDR formato
   ip_addr="${ip%/*}"
   mask="${ip#*/}"
-  if ! [[ $ip_addr =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/[0-9]+$ ]]; then
+  if ! [[ $ip =~ ^([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}$ ]]; then
     echo -e "\n${Red}Error:${GrayL} Formato IP incorrecto\n'./IpCIDR.sh -h' para más ayuda.\n"
     exit 1
   fi
